@@ -1,0 +1,64 @@
+
+
+
+section.pre-skill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height:300px;
+    text-align: center;
+
+
+}
+
+
+
+
+div p.pre-skill-subtitle {
+
+    animation: port 4s 1 forwards;
+    -webkit-animation: port 4s 1 forwards;
+}
+
+div p.pre-skill-subtitle:nth-of-type(2){
+    animation-delay: 0.5s;
+    -webkit-animation-delay: 2s;
+}
+
+
+
+@keyframes port {
+    0%{
+        transform: rotateY(90deg) translateY(25%);
+        opacity: 0.0;
+    }
+    100%{
+        transform: rotateY(0deg) translateY(0%);
+        opacity: 1.0;
+    }
+}
+
+
+
+.pre-skill-icon{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.pre-skill-icon-mt{
+    margin-top:-7px;
+}
+
+i.fa{
+    cursor:pointer;
+    font-size: 13px;
+}
+.sk-wrapper-img{
+    width:100%;
+    margin-bottom: 20px;
+}
